@@ -21,7 +21,7 @@ a.aLink:hover {
   justify-content: center;
   font-family: 'Dosis', sans-serif;
   font-size: 12px;
-  height: 100vh;
+  /* height: 100vh; */
 }
 img {
   width: 25rem;
