@@ -97,7 +97,7 @@ img {
 }
 #footer .social-links a:hover,
 #footer .social-links a:active {
-  border: transparent;
+  border: 2px solid transparent;
   background: linear-gradient(
     90deg,
     rgba(235, 182, 81, 1) 0%,
@@ -108,8 +108,8 @@ img {
 }
 @media (max-width: 600px) {
   img {
-    width: 40rem;
-    height: 40rem;
+    width: 30rem;
+    height: 30rem;
   }
   #contents .loader .load .percentage {
     height: 20px;
