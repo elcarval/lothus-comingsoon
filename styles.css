@@ -47,7 +47,7 @@ img {
 }
 #contents .loader {
   margin-top: 10px;
-  padding: 20px 0;
+  padding: 20px 5px;
 }
 #contents .loader .load {
   background-color: #313031;
