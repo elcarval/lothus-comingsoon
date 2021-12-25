@@ -106,7 +106,7 @@ img {
   );
   color: black;
 }
-@media (max-width: 600px) {
+/* @media (max-width: 600px) {
   img {
     width: 30rem;
     height: 30rem;
@@ -126,4 +126,4 @@ img {
     font-size: 30px;
     border-radius: 50px;
   }
-}
+} */
