@@ -1,0 +1,104 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  color: white;
+  background-color: black;
+}
+a {
+  text-decoration: none;
+  cursor: pointer;
+  color: white;
+}
+a.aLink:hover {
+  text-decoration: underline;
+}
+#main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-family: 'Dosis', sans-serif;
+  font-size: 12px;
+}
+img {
+  width: 25rem;
+  height: 25rem;
+}
+.wrap {
+  position: relative;
+  width: 25rem;
+}
+#contents {
+  text-align: center;
+  color: white;
+  padding-bottom: 35px;
+  font-size: 22px;
+  line-height: 30px;
+  font-weight: normal;
+  margin-top: 50px;
+}
+#contents h2 {
+  font-size: 4rem;
+  line-height: 4rem;
+  font-weight: bold;
+}
+#contents .loader {
+  margin-top: 10px;
+  padding: 20px 0;
+}
+#contents .loader .load {
+  background-color: #313031;
+}
+#contents .loader .load .percentage {
+  background: linear-gradient(
+    90deg,
+    rgba(235, 182, 81, 1) 0%,
+    rgba(194, 144, 24, 1) 35%,
+    rgba(215, 135, 11, 1) 88%
+  );
+  height: 10px;
+}
+#contents .loader .info {
+  display: flex;
+  font-size: 18px;
+}
+#contents .loader .info span {
+  flex: 1;
+}
+#contents .loader .info span:first-child {
+  text-align: left;
+}
+#contents .loader .info span:last-child {
+  text-align: right;
+}
+#footer {
+  text-align: center;
+  margin-top: 50px;
+}
+#footer .social-links {
+  display: flex;
+  justify-content: center;
+}
+#footer .social-links a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 5px;
+  width: 40px;
+  height: 40px;
+  border: 2px solid white;
+  font-size: 20px;
+  border-radius: 40px;
+}
+#footer .social-links a:hover {
+  border: transparent;
+  background: linear-gradient(
+    90deg,
+    rgba(235, 182, 81, 1) 0%,
+    rgba(194, 144, 24, 1) 35%,
+    rgba(215, 135, 11, 1) 88%
+  );
+  color: black;
+}
